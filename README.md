@@ -11,12 +11,12 @@ Install Ollama on Raspberry Pi Zero 2 W according to [Gilzone's guide](https://g
 ### Install Cardterm
 Install [Cardterm](http://www.picosoft.co.jp/CardTerm/) on Cardputer.<br>
 Change baudrate of Cardterm with setup.sys<br>
-``baudrate = 115200``
+``baudrate = 115200``<br>
 ### Enable serial console.
 Enable serial console for Raspberry Pi Zero 2 W with raspi-config.<br>
 ### Run a model
 After boot Raspberry Pi Zero 2 W, you can run a model.<br> 
-``$ ollama run smollm2:135m-instruct-q4_K_S``
+``$ ollama run smollm2:135m-instruct-q4_K_S``<br>
 It takes loooong time :)<br>
 ## Note
 Please use this at your own risk.
