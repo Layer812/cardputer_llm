@@ -10,6 +10,10 @@ Connect Cardputer with Raspberry pi Zero 2 W as following.<br>
 Install Ollama on Raspberry Pi Zero 2 W according to [Gilzone's guide](https://github.com/Gilzone/Installing-a-LLM-on-Raspberry-Pi-Zero-2-W).<br>
 ### Install Cardterm
 Install [Cardterm](http://www.picosoft.co.jp/CardTerm/) on Cardputer.<br>
+<or>
+1.Install M5burner<br>
+2.You can find the firmware from M5Burner as "Cardterm".<br>
+<br>
 Change baudrate of Cardterm with setup.sys<br>
 ``baudrate = 115200``<br>
 ### Enable serial console.
